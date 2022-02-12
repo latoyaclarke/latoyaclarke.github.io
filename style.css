@@ -77,6 +77,10 @@ h6 {
   padding: 0 0 .75em;
 }
 
+h2 {
+  font-size: 21px;
+}
+
 span.important {
   color: #86c8ee;
 }
