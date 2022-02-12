@@ -251,7 +251,7 @@ nav ul li {
     top: 0;
     background: #ffffff;
     border-bottom: 1px solid #f0f8ff;
-  min-height: 100px;
+  min-height: 90px;
   width: 100%;
   margin-top: 0;
   padding: .5em 1.5em ;
@@ -260,15 +260,17 @@ nav ul li {
   }
   header {
     position: relative;
-    top: auto;
+    top: unset;
   }
   header h1 {
     padding: 0;
+    font-size: 26px;
   }
   .description {
     display: none;
   }
   nav ul {
+    font-size: 15px;
     display: flex;
     justify-content: center;
   }
@@ -277,9 +279,9 @@ nav ul li {
   }
   .content-wrapper {
     position: relative;
-    top: 100px;
+    top: 90px;
   }
   #portfolio, #about, #contact {
-    scroll-margin-top: 100px;
+    scroll-margin-top: 90px;
   }
 }
