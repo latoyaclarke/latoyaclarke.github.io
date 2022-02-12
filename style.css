@@ -294,4 +294,7 @@ nav ul li {
   width: 80%;
   transform: translate(-50%,50%);
 }
+  .content #about, .content #contact {
+  padding: 1em .5em;
+}
 }
