@@ -284,4 +284,14 @@ nav ul li {
   #portfolio, #about, #contact {
     scroll-margin-top: 90px;
   }
+  .gallery-descr {
+  font-size: 13px;
+  line-height: 1.4;
+  padding: .5em;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%,50%);
+}
 }
