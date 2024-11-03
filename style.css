@@ -4,12 +4,8 @@ Personal Resume and Portfolio
 Contact: https://www.linkedin.com/in/latoya-clarke/
 */
 
-<<<<<<< Updated upstream
-@import url("reset.css");
-=======
 @import url("https://www.latoyaclarke.com/reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
->>>>>>> Stashed changes
 
 /* Global */
 :root {
@@ -255,14 +251,6 @@ h6 {
     font-weight: 900;
 }
 
-<<<<<<< Updated upstream
-h2 {
-  font-size: 26px;
-}
-
-span.important {
-  color: #86c8ee;
-=======
 .nav {
     /*border-bottom: .5px solid #6f6c67;*/
     padding: 2rem 0 1.5rem 0;
@@ -272,7 +260,6 @@ span.important {
     display: flex;
     justify-content: flex-start;
     list-style-type: none;
->>>>>>> Stashed changes
 }
 
 .nav li {
@@ -466,62 +453,6 @@ span.important {
     height: auto;
     object-fit: contain;
     display: block;
-<<<<<<< Updated upstream
-    position: relative;
-  }
-  .header-wrapper {
-    position: fixed;
-    top: 0;
-    background: #ffffff;
-    border-bottom: 1px solid #f0f8ff;
-  min-height: 90px;
-  width: 100%;
-  margin-top: 0;
-  padding: .5em 1.5em ;
-  z-index: 100;
-  text-align: center;
-  }
-  header {
-    position: relative;
-    top: unset;
-  }
-  header h1 {
-    padding: 0;
-    font-size: 26px;
-  }
-  .description {
-    display: none;
-  }
-  nav ul {
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-  }
-  nav ul li {
-    padding: 0 .25em;
-  }
-  .content-wrapper {
-    position: relative;
-    top: 90px;
-  }
-  #portfolio, #about, #contact {
-    scroll-margin-top: 90px;
-  }
-  .gallery-descr {
-  font-size: 13px;
-  line-height: 1.4;
-  padding: .5em;
-  position: absolute;
-  top: 0%;
-  left: 50%;
-  width: 80%;
-  transform: translate(-50%,50%);
-}
-  .content #about, .content #contact {
-  padding: 1em .5em;
-}
-}
-=======
     margin: 0 0 1.25rem 0;
     padding: 0;
 }
@@ -753,4 +684,3 @@ p a:visited.download p a:hover.download {
         height: 40px;
     }
 }
->>>>>>> Stashed changes
