@@ -5,16 +5,16 @@ Contact: https://www.linkedin.com/in/latoya-clarke/
 */
 
 @import url("https://www.latoyaclarke.com/reset.css");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900');
 
 /* Global */
 :root {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 1.14rem;
     line-height: 100%;
     font-weight: 400;
     hyphens: auto;
-    color: #302f2d;
+    color: #000000;
     text-size-adjust: 100%;
     font-variant-ligatures: contextual common-ligatures;
 }
@@ -60,8 +60,8 @@ em {
 a,
 a:active,
 a:visited {
-    color: #0073b1;
-    font-weight: 700;
+    color: #0a66c2;
+    font-weight: inherit;
     text-decoration: none;
     background: transparent;
     transition: color 0.3s ease;
@@ -69,7 +69,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-    color: #004182;
+    color: #0a66c2;
 }
 
 article,
@@ -99,8 +99,8 @@ h4,
 h5,
 h6 {
     display: inline-block;
-    font-family: "Merriweather", Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    color: #302f2d;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: #000000;
     font-weight: 600;
     margin: 0 0 1.25rem 0;
 }
@@ -138,41 +138,42 @@ p {
 
 .header {
     padding: 0;
+    text-align: center;
 }
 
 .footer {
-    background: #19298e;
-    color: #eff5f6;
-    font-size: .8rem;
+    background: #f3f3f4;
+    color: #4e4e4e;
+    
     padding: 2.5rem 4.5rem 1.5rem;
-    text-align: left;
+    text-align: center;
 }
 
 .border-line-footer {
     position: relative;
     width: 100%;
-    border-bottom: .5px solid #eff5f6;
-    margin-top: 1.25rem;
-    margin-bottom: 1rem;
+    border-bottom: 1.5px solid #cdcdcd;
+    margin: 2rem 0;
 }
 
-.border-line-footer::after {
+/* .border-line-footer::after {
     content: "";
     position: absolute;
     right: 0;
     bottom: -10px;
     width: 20px;
     height: 20px;
-    background-color: #19298e;
+    background-color: #000000;
     border-radius: 50%;
-    border: .5px solid #eff5f6;
-}
+    border: 1px solid #eeeeee;
+} */
 
 .footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
 }
 
 .footer li {
@@ -188,13 +189,13 @@ p {
 .footer li a,
 .footer li a:active,
 .footer li a:visited {
-    color: #eff5f6;
+    color: #4e4e4e;
     text-decoration: none;
     font-weight: 400;
 }
 
 .footer li a:hover {
-    color: #cbcbcb;
+    color: #4e4e4e;
     text-decoration: underline;
     font-weight: 400;
 }
@@ -205,38 +206,46 @@ p {
 }
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 4.5rem;
     line-height: 4rem;
-    font-weight: 100;
+    font-weight: 200;
     display: inline-block;
-    color: #19298e;
+    color: inherit;
     /*font-style: italic;*/
     margin: 0;
+    font-style: normal;
+    text-transform: uppercase;
 }
 
 .main h2.section-header {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
     padding: 1.75rem 0 .5rem 0;
-    margin: 0 0 1.75rem 0;
+    margin: 1.75rem 0;
     line-height: 100%;
-    font-weight: 500;
-    border-bottom: 3px solid #0025e8;
+    font-weight: 300;
+    color: #4e4e4e;
+    background-color: #e7e7e7;
+    padding: .5rem;
+  border-radius: 0.25rem;
 }
 
 
 #bio.bio h2.name {
-    color: #b72a1e;
-    font-size: 2rem;
+    font-family: "Merriweather", Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: inherit;
+    font-size: 2.75rem;
     line-height: 100%;
     padding: 0;
     margin: 0 0 .5rem 0;
     background: transparent;
     border: 0;
+    font-weight: 300;
 }
 
 p.job-title {
-    font-weight: 700;
+    font-weight: 300;
+    font-size: 110%;
 }
 
 h4 {
@@ -253,18 +262,19 @@ h6 {
 
 .nav {
     /*border-bottom: .5px solid #6f6c67;*/
-    padding: 2rem 0 1.5rem 0;
+   /* padding: 2rem 0 1.5rem 0; */
+    /*font-family: "Merriweather", Cambria, Cochin, Georgia, Times, Times New Roman, serif;*/
 }
 
 .nav ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     list-style-type: none;
 }
 
 .nav li {
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     padding: 0 1.75rem 0 0;
     line-height: 100%;
     justify-content: center;
@@ -272,47 +282,43 @@ h6 {
     text-decoration: none;
     transition: all .5s;
     display: flex;
-    font-weight: 500;
+    font-weight: 300;
+}
+
+.nav li:last-of-type {
+    padding-right: 0;
 }
 
 .nav a {
-    color: #302f2d;
+    color: #000000;
+    background-color: transparent;
     text-decoration: none;
     transition: color 0.3s ease;
     text-decoration: none;
-    font-weight: 400;
+    padding: .5rem;
+    border-radius: 0.25rem;
 }
 
 .nav a:hover {
-    color: #0025e8;
+    color: #0069c2;
+    background-color: #cfe8fd;
     text-decoration: none;
 }
 
 .border-line-0 {
     position: relative;
     width: 100%;
-    border-bottom: .5px solid #6f6c67;
-    margin: 2.5rem 0 2rem;
+    border-bottom: 1.5px solid #cdcdcd;
+    margin: 3rem 0;
 }
 
 .border-line {
     position: relative;
     width: 100%;
-    border-bottom: .5px solid #6f6c67;
+    border-bottom: 0;
     margin-top: 1rem;
 }
 
-.border-line::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-    width: 20px;
-    height: 20px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    border: .5px solid #6f6c67;
-}
 
 .two-columns {
     display: flex;
@@ -321,7 +327,7 @@ h6 {
 }
 
 .two-columns>.headshot {
-    flex: 0 0 30%;
+    flex: 0 0 25%;
     background-color: transparent;
     display: inline-block;
     vertical-align: top;
@@ -485,7 +491,8 @@ p a:visited.download p a:hover.download {
 }
 
 .note {
-    color: #6f6c67;
+    color: #4e4e4e;
+    font-size: 90%;
 }
 
 .two-columns-contact {
